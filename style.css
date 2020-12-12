@@ -1,0 +1,21 @@
+.creature { 
+    width:  300px;
+    height: 300px;
+    border-radius: 50%;
+   background: red;
+    position: relative;
+    animation: gogo 10s infinite; 
+   }
+   .load{
+       border: blue 1px solid;
+       width: 100px;
+       height: 100px;
+       border-radius:50px;
+   }
+   @keyframes gogo{
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;border-radius: 0%;}
+        75% {background-color: green;}
+        100%{background-color: rgb(255, 0, 0);}
+      } 
